@@ -3404,9 +3404,21 @@ td:last-child {
     margin-bottom: var(--vspace-0_125);
     color        : var(--color-1);
 }
+.experience-item {
+    margin-bottom: 20px;
+}
+.experience-type {
+    font-style: italic;
+    color: #555;
+}
+.experience-details {
+    margin-top: 5px;
+    display: block;
+    color: #333;
+}
 
 .s-intro__content-title {
-    font-size     : clamp(3.8rem, 4.8vw, 8.8rem);
+    font-size     : clamp(3.8rem, 2.8vw, 6.8rem);
     line-height   : 1.045;
     letter-spacing: -0.025em;
     margin-top    : 0;
