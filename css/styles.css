@@ -3416,6 +3416,66 @@ td:last-child {
     display: block;
     color: #333;
 }
+/* Style général pour la synthèse des compétences */
+.s-skills-summary {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 40px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre de la synthèse */
+.s-skills-summary .summary-header h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style pour chaque expérience */
+.s-skills-summary .experience-summary {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-left: 4px solid #4CAF50;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Titre de chaque expérience */
+.s-skills-summary .experience-summary h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Texte général */
+.s-skills-summary .experience-summary p {
+    line-height: 1.6;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Mise en valeur des points forts */
+.s-skills-summary .experience-summary p strong {
+    color: #4CAF50;
+}
+
+/* Espacement entre les paragraphes */
+.s-skills-summary .experience-summary p:not(:last-child) {
+    margin-bottom: 15px;
+}
+/* Style pour le titre des expériences */
+.s-skills-summary .experience-summary h4 {
+    font-size: 1.8rem;          /* Augmentation de la taille de la police */
+    font-weight: 600;           /* Augmentation de l'épaisseur pour plus de lisibilité */
+    color: #333;                /* Couleur sombre pour un bon contraste */
+    margin-bottom: 15px;        /* Espacement plus généreux sous le titre */
+    letter-spacing: 0.5px;      /* Ajout d'un léger espacement entre les lettres */
+    text-transform: uppercase;  /* Pour donner un aspect plus structuré */
+}
 
 .s-intro__content-title {
     font-size     : clamp(3.8rem, 2.8vw, 6.8rem);
